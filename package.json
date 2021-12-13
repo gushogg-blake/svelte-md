@@ -1,0 +1,15 @@
+{
+  "name": "svelte-md",
+  "version": "1.0.0",
+  "author": "Vehmloewff",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "dependencies": {
+    "marked": "^4.0.7",
+    "write": "^2.0.0"
+  }
+}
