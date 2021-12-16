@@ -1,4 +1,4 @@
-import { svelteMarkdown, prerenderPages } from '../../index.js'
+import { svelteMarkdown, prerenderPages } from 'svelte-md'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
 import { terser } from 'rollup-plugin-terser'

@@ -1,3 +1,9 @@
-export * from "./lib/plugin.js";
-export * from "./lib/resolve-pages.js";
-export * from "./lib/prerender-pages.js";
+let svelteMarkdown = require("./lib/svelteMarkdown");
+let resolvePages = require("./lib/resolvePages");
+let prerenderPages = require("./lib/prerenderPages");
+
+module.exports = {
+	svelteMarkdown,
+	resolvePages,
+	prerenderPages,
+};

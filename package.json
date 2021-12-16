@@ -3,12 +3,11 @@
 	"version": "1.0.0",
 	"author": "Vehmloewff",
 	"main": "index.js",
-	"type": "module",
 	"license": "MIT",
 	"dependencies": {
 		"gray-matter": "^4.0.3",
 		"marked": "^4.0.7",
-		"recursive-readdir-async": "^1.2.0",
+		"recursive-readdir-sync": "^1.0.6",
 		"rollup-plugin-svelte": "^7.1.0",
 		"write": "^2.0.0"
 	},

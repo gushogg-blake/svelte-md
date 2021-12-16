@@ -18,6 +18,6 @@
 	},
 	"dependencies": {
 		"recursive-readdir-sync": "^1.0.6",
-		"svelte-md": "../"
+		"svelte-md": "../../"
 	}
 }
