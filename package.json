@@ -5,15 +5,14 @@
 	"main": "index.js",
 	"type": "module",
 	"license": "MIT",
-	"scripts": {
-		"test": "node test/main.js"
-	},
 	"dependencies": {
 		"gray-matter": "^4.0.3",
 		"marked": "^4.0.7",
 		"recursive-readdir-async": "^1.2.0",
 		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.44.2",
 		"write": "^2.0.0"
+	},
+	"peerDependencies": {
+		"svelte": "3.x"
 	}
 }
