@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"dependencies": {
+		"flowfs": "^5.1.2",
 		"gray-matter": "^4.0.3",
 		"marked": "^4.0.7",
 		"recursive-readdir-sync": "^1.0.6",
